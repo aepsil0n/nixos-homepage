@@ -27,4 +27,11 @@ jobs:
         production-branch: 'master'
         deploy-message: 'Deploy from GitHub Actions'
       if: github.repository == 'NixOS/nixos-homepage'
-
+    - name: Commit flake.lock and push to master branch
+      uses: github-actions-x/commit@v2.5
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        push-branch: 'master'
+        commit-message: 'Update flake.lock [CI Skip]'
+        files: flake.lock
+      if: github.repository == 'NixOS/nixos-homepage'
