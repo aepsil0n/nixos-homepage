@@ -1,0 +1,5 @@
+[% WRAPPER layout.tt title="Declarative and reproducible developer environments" %]
+
+[% INSERT "nix-dev/declarative-and-reproducible-developer-environments.html.in" %]
+
+[% END %]

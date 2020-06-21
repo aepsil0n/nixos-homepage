@@ -7,6 +7,8 @@
     <ul>
       <li><a href="[%root%]guides/install-nix.html">Install Nix</a></li>
       <li><a href="[%root%]guides/ad-hoc-developer-environments.html">Ad hoc developer environments</a></li>
+      <li><a href="[%root%]guides/towards-reproducibility-pinning-nixpkgs.html">Towards reproducibility: Pinning nixpkgs</a></li>
+      <li><a href="[%root%]guides/declarative-and-reproducible-build-environments.html">Declarative and reproducible build environments</a></li>
       <li><a href="[%root%]guides/contributing.html">How to Contribute</a></li>
     </ul>
   </div>
